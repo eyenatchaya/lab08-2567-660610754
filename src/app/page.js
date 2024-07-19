@@ -19,15 +19,10 @@ export default function Home() {
       <div style={{ maxWidth: "400px" }} className="mx-auto">
         {/* task input */}
         <TaskInput />
-        {/* task */}
+     {/* task */}
         <Task {...tasks[0]} />
-        {/* task */}
         <Task {...tasks[1]} />
-        {/* task */}
         <Task {...tasks[2]} />
-      {/* {tasks.map((item) => {
-        return <Task key = {item.id} {...item} />
-      })} */}
       </div>
       {/* //footer section */}
       <Footer year="2024" fullName="Natchaya Palee" studentId="660610754" />
